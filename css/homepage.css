@@ -72,7 +72,9 @@ nav a{
 }
 
 .fundoimg{
-    background-color: rgb(214, 236, 223);
+    background-image: url("../img/fundologo.png");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 350px;
     border-radius: 20px;
