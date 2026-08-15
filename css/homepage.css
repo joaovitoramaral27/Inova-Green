@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(174, 224, 181);
+    background-color: rgb(194, 255, 182);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -27,20 +27,19 @@ nav {
 
 nav a{
     text-decoration: none;
-    color: rgb(212, 241, 185);
+    color: rgb(193, 216, 171);
 
 }
 
 .cabeça h1 {
     margin: 0;
     padding: 30px;
-    color: rgb(167, 195, 140);
+    color: rgb(193, 216, 171);
 }
 
 .appbutton{
     background-color: rgb(1, 20, 9);
-    border: 2px solid rgb(167, 195, 140);
-    cursor: pointer;
+    border: 2px solid rgb(193, 216, 171);
     width: 80px;
     height: 30px;
     display: flex;
@@ -73,7 +72,7 @@ nav a{
 }
 
 .fundoimg{
-    background-color: rgb(193, 224, 206);
+    background-color: rgb(214, 236, 223);
     width: 350px;
     height: 350px;
     border-radius: 20px;
