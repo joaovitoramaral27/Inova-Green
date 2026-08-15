@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(167, 195, 140);
+    background-color: rgb(174, 224, 181);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .cabeça{
-    background-color: rgb(1, 20, 1);
+    background-color: rgb(1, 20, 9);
     width: 100%;
     height: 100px;
     display: flex;
@@ -38,7 +38,7 @@ nav a{
 }
 
 .appbutton{
-    background-color: rgb(1, 20, 1);
+    background-color: rgb(1, 20, 9);
     border: 2px solid rgb(167, 195, 140);
     cursor: pointer;
     width: 80px;
@@ -47,4 +47,86 @@ nav a{
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+}
+
+.introducao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    @media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+  }
+}
+}
+
+.introducao img{
+    width: 400px;
+    height: auto;
+    @media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+  }
+}
+}
+
+.fundoimg{
+    background-color: rgb(193, 224, 206);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    @media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+  }
+}
+}
+
+.introtexto{
+    color: rgb(1, 20, 9);
+}
+
+.controle{
+    color: rgb(42, 102, 30);
+    text-decoration: underline;
+}
+
+.introtexto h1{
+    font-weight: bold;
+}
+
+.introbutton{
+    background-color: rgb(1, 20, 9);
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.introbutton a{
+    text-decoration: none;
+    color: rgb(193, 216, 171);
+    font-weight: bold;
+}
+
+.sobresis{
+    background-color: rgb(214, 236, 223);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobresis h1{
+    padding-top: 45px;
+    color: rgb(1, 20, 9);
+    font-weight: bold;
 }
