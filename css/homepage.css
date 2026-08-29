@@ -174,10 +174,11 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(214, 236, 223);
 }
 
 .cadastro{
-    background-color: rgb(214, 236, 223);
+    background-color: rgb(209, 217, 223);
     height: 400px;
     width: 900px;
     display: flex;
@@ -202,7 +203,7 @@ nav a{
 }
 
 .cadastro form{
-    background-color: white;
+    background-color: rgb(189, 207, 196);
     padding-right: 30px;
     padding-left: 15px;
     display: flex;
