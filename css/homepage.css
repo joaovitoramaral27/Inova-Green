@@ -226,3 +226,11 @@ form p{
     height: 40px;
     border-radius: 20px;
 }
+
+form button{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(1, 20, 9);
+    color: white;
+}
