@@ -257,13 +257,34 @@ form button{
 
 .escolhakit{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: justify;
     width: 350px;
-    height: 350px;
+    height: 325px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
     padding: 20px;
+}
+
+.escolhakit h1{
+    color: rgb(1, 20, 9);
+}
+
+.escolhakit h2{
+    color: rgb(42, 102, 30);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.escolhakit button{
+    background-color: rgb(1, 20, 9);
+    font-size: 15px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.escolhakit button a{
+    text-decoration: none;
+    color: white;
 }
